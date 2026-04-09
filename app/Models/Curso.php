@@ -10,6 +10,7 @@ class Curso extends Model
     // fillable - Insere informacoes em massa
     protected $fillable = [
         'nome',
+        'semestres',
         'descricao',
     ];
 }
